@@ -19,15 +19,4 @@ All journal content is encrypted on the client-side and stored as encrypted data
 - **End-to-End Encryption (E2EE)**: Ensures that journal data is encrypted on the client side, preventing unauthorized access.
 - **RESTful API**: Used to interact with the application using HTTP methods like GET, POST, PUT, and DELETE.
 
-## API Endpoints
 
-### 1. **Add a New Journal Entry** (POST)
-- **Endpoint**: `/api/journal`
-- **Method**: `POST`
-- **Description**: Add a new journal entry with encrypted content.
-- **Request Body**:
-  ```json
-  {
-    "title": "My first journal entry",
-    "content": "Encrypted content here"
-  }
