@@ -27,7 +27,7 @@ public class journalEntryService {
         mongoRepository.deleteById(id);
     }
 
-    public Optional<JournalEntry> getById(String id){
+    public Optional<JournalEntry> getById(String  id){
         return mongoRepository.findById(id);
     }
 }
